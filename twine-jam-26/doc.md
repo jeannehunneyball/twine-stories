@@ -16,9 +16,9 @@
 
 ## non-player characters: 
 - doctors
- -experiment volunteers
- - scientists
- - paranormal division of government
+-experiment volunteers
+- scientists
+- paranormal division of government
 
 ## Types of documents: 
 - daily journals 

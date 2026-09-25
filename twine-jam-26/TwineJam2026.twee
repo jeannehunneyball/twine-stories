@@ -8,162 +8,201 @@ TwineJam 2026
   "format": "SugarCube",
   "format-version": "2.37.3",
   "start": "Start",
-  "zoom": 1
+  "zoom": 0.6
 }
 
 
-:: Start {"position":"225,650","size":"100,100"}
+:: Start {"position":"425,750","size":"100,100"}
 [[Walk left|block0]]
 [[Walk right|block7]]
 
 
-:: StoryInit {"position":"50,650","size":"100,100"}
+:: StoryInit {"position":"50,750","size":"100,100"}
 
 
 
-:: block0 {"position":"225,525","size":"100,100"}
-[[Enter|block1]]
+:: block0 {"position":"200,750","size":"100,100"}
+[[Go through the door|block1]]
 
 
-:: block1 {"position":"100,525","size":"100,100"}
-[[Enter|corridor1]]
-[[Enter|block0]]
+:: block1 {"position":"200,625","size":"100,100"}
+[[Go down the corridor|corridor1]]
+[[Go through the door|block0]]
 
 
-:: block10 {"position":"350,400","size":"100,100"}
-[[Enter|block9]]
-[[Enter|corridor2]]
-[[Enter|corridor7]]
-[[Generator|generator]]
-[[Cistern|cistern]]
+:: block10 {"position":"500,500","size":"100,100"}
+[[Go through the door|block9]]
+[[Go down the corridor|corridor2]]
+[[Go down the corridor|corridor7]]
+[[Look at the generator|generator]]
+[[Look at the water tank|cistern]]
+
 fuel storage, diesel generator, cistern
 
+documents
+- signage (do not smoke, flamable diesel)
+- handwashing station
 
-:: block11 {"position":"725,350","size":"100,100"}
-[[Enter|corridor8]]
+
+:: block11 {"position":"800,625","size":"100,100"}
+[[Go back through the corridor|corridor7]]
 [[Go left|clean_water]]
 [[Go right|tech_water]]
 
 water storage
 
 
-:: block2 {"position":"100,275","size":"100,100"}
+
+
+:: block2 {"position":"200,375","size":"100,100"}
+Bedroom 1
+
 [[Enter|block3]]
 [[Enter|corridor3]]
-[[Enter|block1]]
+[[Enter|wc1]]
+[[Enter|corridor1]]
 
 
-:: block3 {"position":"100,150","size":"100,100"}
+:: block3 {"position":"200,250","size":"100,100"}
+Bedroom 2
+
 [[Enter|block4]]
 [[Enter|corridor4]]
 [[Enter|block2]]
+[[Enter|wc2]]
 
 
-:: block4 {"position":"300,25","size":"100,100"}
+:: block4 {"position":"350,25","size":"100,100"}
 [[Enter|block5]]
 [[Enter|block3]]
 
-conference room
+conference room 2
+presentation notes/script maybe
 
 
-:: block5 {"position":"475,25","size":"100,100"}
+:: block5 {"position":"650,25","size":"100,100"}
 [[Enter|corridor5]]
 [[Enter|block4]]
-conference room
+conference room 1
+debrief after meeting minutes
 
 
-:: block6 {"position":"600,225","size":"100,100"}
-[[Enter|corridor5]]
-[[Enter|corridor6]]]]
-[[Enter|corridor8]]
+:: block6 {"position":"650,500","size":"100,100"}
+[[Enter|corridor6]]
+[[Enter|corridor7]]
 communication
 
 
-:: block7 {"position":"600,475","size":"100,100"}
-[[Enter|corridor7]]
+:: block7 {"position":"650,750","size":"100,100"}
+Reception / Entry hall
 
-[[Enter|corridor8]]
+[[Go through the corridor|corridor7]]
+
+documents
+- surface level experiment outlines
+- more like a brochure than academic
+sign in/out sheets
 
 
-:: block8 {"position":"350,150","size":"100,100"}
+:: block8 {"position":"500,250","size":"100,100"}
 [[Enter|block9]]
 [[Enter|corridor4]]
 [[Enter|corridor5]]
-tito block
+[[Enter|wc3]]
+tito block/scientist room
+
+documents -
+science personal journals
+books
+letters from someone important
 
 
-:: block9 {"position":"350,275","size":"100,100"}
+:: block9 {"position":"500,375","size":"100,100"}
 [[Enter|block10]]
 [[Enter|corridor3]]
 [[Enter|corridor6]]
 [[Enter|block8]]
+
 central power
 air filtration
 
+documents
+- manuals
+- signage
 
-:: cistern {"position":"475,525","size":"100,100"}
+
+:: cistern {"position":"500,625","size":"100,100"}
 [[Go back into Block 10|block10]]
 
 
-:: clean_water {"position":"725,225","size":"100,100"}
+:: clean_water {"position":"800,500","size":"100,100"}
 [[Go back to Block 11|block11]]
 
 clean drinking water
 
 
-:: corridor1 {"position":"100,400","size":"100,100"}
-[[Enter|block2]]
-[[Enter|corridor2]]
-[[Enter|block1]]
+:: corridor1 {"position":"200,500","size":"100,100"}
+[[Go through the door|block2]]
+[[Go down the corridor|corridor2]]
+[[Go through the door|block1]]
 
 
 
-:: corridor2 {"position":"225,400","size":"100,100"}
-[[Enter|block10]]
-[[Enter|corridor1]]
+:: corridor2 {"position":"350,500","size":"100,100"}
+[[Go through the door|block10]]
+[[Go down the corridor|corridor1]]
 
 
-:: corridor3 {"position":"225,275","size":"100,100"}
-[[Enter|block9]]
-[[Enter|block2]]
+
+:: corridor3 {"position":"350,375","size":"100,100"}
+[[Go through the door|block9]]
+[[Go through the door|block2]]
 
 
-:: corridor4 {"position":"225,150","size":"100,100"}
-[[Enter|block3]]
-[[Enter|block8]]
+:: corridor4 {"position":"350,250","size":"100,100"}
+[[Go through the door|block3]]
+[[Go through the door|block8]]
 
 
-:: corridor5 {"position":"475,150","size":"100,100"}
-[[Enter|block8]]
-[[Enter|block6]]
-[[Enter|corridor6]]
+:: corridor5 {"position":"650,250","size":"100,100"}
+[[Go through the door|block8]]
+[[Go down the corridor|corridor6]]
+[[Go through the door|block5]]
 
 
-:: corridor6 {"position":"475,275","size":"100,100"}
-[[Enter|corridor5]]
-[[Enter|block9]]
-[[Enter|block6]]
+:: corridor6 {"position":"650,375","size":"100,100"}
+[[Go through the door|block9]]
+[[Go down the corridor|corridor5]]
+[[Go through the door|block6]]
 
 
-:: corridor7 {"position":"475,400","size":"100,100"}
-[[Enter|block10]]
-[[Enter|block7]]
+:: corridor7 {"position":"650,625","size":"100,100"}
+[[Go right|block10]]
+[[Go back|block7]]
+[[Go left|block11]]
+[[Keep going|block6]]
 
 
-:: corridor8 {"position":"600,350","size":"100,100"}
-[[Enter|block6]]]
-[[Enter|block7]]
-[[Enter|block11]]
-
-
-:: generator {"position":"350,525","size":"100,100"}
+:: generator {"position":"350,625","size":"100,100"}
 [[Go back into Block 10|block10]]
 
 
-:: tech_water {"position":"725,475","size":"100,100"}
+:: tech_water {"position":"800,750","size":"100,100"}
 [[Go back to Block 11|block11]]
 
 technical water
+
+
+:: wc1 {"position":"50,375","size":"100,100"}
+[[Go back into the bedroom|block2]]
+
+
+:: wc2 {"position":"50,250","size":"100,100"}
+[[Go back into the bedroom|block3]]
+
+
+:: wc3 {"position":"500,100","size":"100,100"}
+[[Go back into the bedroom|block8]]
 
 
 :: StoryStylesheet [stylesheet]
@@ -173,4 +212,87 @@ technical water
 
 #story {
   margin-left: 3.5em;
+}
+
+#passages {
+  background: #eee9dc;
+  padding: 3em;
+  margin: 3em auto;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  font-family: Georgia, serif;
+  letter-spacing: 0.05em;
+}
+
+a {
+  color: #5b4035;
+}
+
+a:hover {
+  color: #8a5a44;
+}
+
+.medical-record {
+  background: #f4f1e8;
+  border: 1px solid #999;
+  padding: 2em;
+  font-family: "Courier New", monospace;
+  line-height: 1.6;
+}
+
+.medical-record h1 {
+  font-size: 1.4em;
+  text-align: center;
+  letter-spacing: 0.15em;
+}
+
+.medical-record hr {
+  border: 0;
+  border-top: 1px solid #999;
+  margin: 2em 0;
+}
+
+.dream-diary {
+  background: #e4e0ea;
+  padding: 2.5em;
+  font-family: Georgia, serif;
+  font-style: italic;
+  line-height: 1.8;
+}
+
+.dream-diary h1 {
+  font-style: normal;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.government-document {
+  background: #e8e5d8;
+  border: 2px solid #333;
+  padding: 2.5em;
+  font-family: "Courier New", monospace;
+}
+
+.government-document h1 {
+  font-family: "Courier New", monospace;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.government-document .redacted {
+  letter-spacing: 0.1em;
+}
+
+.student-notes {
+  background: #f7f0c8;
+  padding: 2em;
+  font-family: "Comic Sans MS", cursive;
+  transform: rotate(-1deg);
+  box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+.student-notes h2 {
+  font-size: 1.3em;
 }
