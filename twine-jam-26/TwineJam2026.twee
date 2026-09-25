@@ -1,0 +1,176 @@
+:: StoryTitle
+TwineJam 2026
+
+
+:: StoryData
+{
+  "ifid": "B5BEFDD9-45E2-4766-BEC1-9D777560314E",
+  "format": "SugarCube",
+  "format-version": "2.37.3",
+  "start": "Start",
+  "zoom": 1
+}
+
+
+:: Start {"position":"225,650","size":"100,100"}
+[[Walk left|block0]]
+[[Walk right|block7]]
+
+
+:: StoryInit {"position":"50,650","size":"100,100"}
+
+
+
+:: block0 {"position":"225,525","size":"100,100"}
+[[Enter|block1]]
+
+
+:: block1 {"position":"100,525","size":"100,100"}
+[[Enter|corridor1]]
+[[Enter|block0]]
+
+
+:: block10 {"position":"350,400","size":"100,100"}
+[[Enter|block9]]
+[[Enter|corridor2]]
+[[Enter|corridor7]]
+[[Generator|generator]]
+[[Cistern|cistern]]
+fuel storage, diesel generator, cistern
+
+
+:: block11 {"position":"725,350","size":"100,100"}
+[[Enter|corridor8]]
+[[Go left|clean_water]]
+[[Go right|tech_water]]
+
+water storage
+
+
+:: block2 {"position":"100,275","size":"100,100"}
+[[Enter|block3]]
+[[Enter|corridor3]]
+[[Enter|block1]]
+
+
+:: block3 {"position":"100,150","size":"100,100"}
+[[Enter|block4]]
+[[Enter|corridor4]]
+[[Enter|block2]]
+
+
+:: block4 {"position":"300,25","size":"100,100"}
+[[Enter|block5]]
+[[Enter|block3]]
+
+conference room
+
+
+:: block5 {"position":"475,25","size":"100,100"}
+[[Enter|corridor5]]
+[[Enter|block4]]
+conference room
+
+
+:: block6 {"position":"600,225","size":"100,100"}
+[[Enter|corridor5]]
+[[Enter|corridor6]]]]
+[[Enter|corridor8]]
+communication
+
+
+:: block7 {"position":"600,475","size":"100,100"}
+[[Enter|corridor7]]
+
+[[Enter|corridor8]]
+
+
+:: block8 {"position":"350,150","size":"100,100"}
+[[Enter|block9]]
+[[Enter|corridor4]]
+[[Enter|corridor5]]
+tito block
+
+
+:: block9 {"position":"350,275","size":"100,100"}
+[[Enter|block10]]
+[[Enter|corridor3]]
+[[Enter|corridor6]]
+[[Enter|block8]]
+central power
+air filtration
+
+
+:: cistern {"position":"475,525","size":"100,100"}
+[[Go back into Block 10|block10]]
+
+
+:: clean_water {"position":"725,225","size":"100,100"}
+[[Go back to Block 11|block11]]
+
+clean drinking water
+
+
+:: corridor1 {"position":"100,400","size":"100,100"}
+[[Enter|block2]]
+[[Enter|corridor2]]
+[[Enter|block1]]
+
+
+
+:: corridor2 {"position":"225,400","size":"100,100"}
+[[Enter|block10]]
+[[Enter|corridor1]]
+
+
+:: corridor3 {"position":"225,275","size":"100,100"}
+[[Enter|block9]]
+[[Enter|block2]]
+
+
+:: corridor4 {"position":"225,150","size":"100,100"}
+[[Enter|block3]]
+[[Enter|block8]]
+
+
+:: corridor5 {"position":"475,150","size":"100,100"}
+[[Enter|block8]]
+[[Enter|block6]]
+[[Enter|corridor6]]
+
+
+:: corridor6 {"position":"475,275","size":"100,100"}
+[[Enter|corridor5]]
+[[Enter|block9]]
+[[Enter|block6]]
+
+
+:: corridor7 {"position":"475,400","size":"100,100"}
+[[Enter|block10]]
+[[Enter|block7]]
+
+
+:: corridor8 {"position":"600,350","size":"100,100"}
+[[Enter|block6]]]
+[[Enter|block7]]
+[[Enter|block11]]
+
+
+:: generator {"position":"350,525","size":"100,100"}
+[[Go back into Block 10|block10]]
+
+
+:: tech_water {"position":"725,475","size":"100,100"}
+[[Go back to Block 11|block11]]
+
+technical water
+
+
+:: StoryStylesheet [stylesheet]
+#ui-bar {
+  display: none;
+}
+
+#story {
+  margin-left: 3.5em;
+}
