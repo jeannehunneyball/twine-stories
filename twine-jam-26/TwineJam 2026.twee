@@ -1,0 +1,320 @@
+:: StoryTitle
+TwineJam 2026
+
+
+:: StoryData
+{
+  "ifid": "B5BEFDD9-45E2-4766-BEC1-9D777560314E",
+  "format": "SugarCube",
+  "format-version": "2.37.3",
+  "start": "Start",
+  "zoom": 0.6
+}
+
+
+:: Start {"position":"825,875","size":"100,100"}
+STORY PURPOSE: Introduce player to the game
+DOCUMENTS: none
+CLUES: none
+UNRESOLVED: just go left or right
+
+[[Walk left|block0]]
+[[Walk right|block7]]
+
+
+:: StoryInit {"position":"450,850","size":"100,100"}
+
+
+
+:: block0 {"position":"600,875","size":"100,100"}
+STORY PURPOSE: introduce the story from the volunteers pov
+DOCUMENTS: brochure style intro leaflets, emergency contact info
+CLUES: shoes still in lockers, plastic foot wrapper available on request
+UNRESOLVED:
+
+[[Go through the door|block1]]
+
+
+:: block1 {"position":"600,725","size":"100,100"}
+STORY PURPOSE: take player character into the next step of the world
+DOCUMENTS: waivers, overviews, brochures, warnings
+CLUES: appoint an emergency contact, signed documents
+UNRESOLVED:
+
+[[Go through the corridor|corridor1]]
+[[Go back|block0]]
+
+
+:: block10 {"position":"900,575","size":"100,100"}
+STORY PURPOSE: environmental storytelling - fuel storage, diesel generator, cistern
+DOCUMENTS: signage (do not smoke, flammable diesel), handwashing/eyewashing station
+CLUES: maybe someone smoked somewhere, the place went up in contained flames?
+UNRESOLVED:
+
+[[Go through the door|block9]]
+[[Go through the corridor|corridor2]]
+[[Go through the corridor|corridor7]]
+[[Look at the generator|generator]]
+[[Look at the water tank|cistern]]
+
+
+:: block11 {"position":"1200,725","size":"100,100"}
+STORY PURPOSE: environmental storytelling
+DOCUMENTS: water storage instructions
+CLUES: theyve been here a while
+UNRESOLVED:
+
+[[Go back through the corridor|corridor7]]
+[[Go left|clean_water]]
+[[Go right|tech_water]]
+
+
+
+
+:: block2 {"position":"600,425","size":"100,100"}
+STORY PURPOSE: environmental storytelling from volunteer pov
+DOCUMENTS: personal journal, sleep diary, dream diary, notes, textbooks
+CLUES: someone who enjoyed the experiment, had evidence to prove so
+UNRESOLVED:
+
+Bedroom 1
+
+[[Enter|block3]]
+[[Enter|corridor3]]
+[[Enter|wc1]]
+[[Enter|corridor1]]
+
+
+:: block3 {"position":"600,275","size":"100,100"}
+STORY PURPOSE: environmental storytelling from volunteer pov (different to other)
+DOCUMENTS: personal journals, sleep diaries, dream diaries, notes, textbooks, unread sent messages
+CLUES: is somewhat disturbed by the experiment, goes down a rabbit hole, sending unrequited messages to other volunteer
+UNRESOLVED:
+
+Bedroom 2
+
+[[Enter|block4]]
+[[Enter|corridor4]]
+[[Enter|block2]]
+[[Enter|wc2]]
+
+
+:: block4 {"position":"750,50","size":"100,100"}
+STORY PURPOSE: conference room 1
+DOCUMENTS: presentation notes, script
+CLUES: something bigger is at hand
+UNRESOLVED:
+
+[[Enter|block5]]
+[[Enter|block3]]
+
+
+:: block5 {"position":"1050,50","size":"100,100"}
+STORY PURPOSE: conference room 2
+DOCUMENTS: debrief notes, transcripts, doodles, 
+CLUES: not everyone is in on this
+UNRESOLVED:
+
+[[Enter|corridor5]]
+[[Enter|block4]]
+conference room 1
+debrief after meeting minutes
+
+
+:: block6 {"position":"1050,575","size":"100,100"}
+STORY PURPOSE: communications room
+DOCUMENTS: transcripts, experimenter scripts, employee handbook, handwritten notes in margins
+CLUES:
+UNRESOLVED:
+
+[[Enter|corridor6]]
+[[Enter|corridor7]]
+communication
+
+
+:: block7 {"position":"1050,875","size":"100,100"}
+STORY PURPOSE: entry hall for scientists. introduce story from scientists pov
+DOCUMENTS: brochures (aimed at scientists) how to survive underground, tips and tricks guidebooks. sign in/out sheets
+CLUES:
+UNRESOLVED:
+
+[[Go through the corridor|corridor7]]
+
+
+:: block8 {"position":"900,275","size":"100,100"}
+STORY PURPOSE: on duty scientist room
+DOCUMENTS: personal journals, scattered books, crossword puzzles, personal dream diaries (not for experiment), sleep diaries, cctv notes, letters from a loved one
+CLUES: scientist is just as clueless as volunteer
+UNRESOLVED:
+
+[[Enter|block9]]
+[[Enter|corridor4]]
+[[Enter|corridor5]]
+[[Enter|wc3]]
+
+
+:: block9 {"position":"900,425","size":"100,100"}
+STORY PURPOSE: central power/air filtration
+DOCUMENTS: manuals, signage
+CLUES: no power is currently connected
+UNRESOLVED:
+
+[[Enter|block10]]
+[[Enter|corridor3]]
+[[Enter|corridor6]]
+[[Enter|block8]]
+
+
+:: cistern {"position":"900,725","size":"100,100"}
+STORY PURPOSE: environmental storytelling
+DOCUMENTS: flushign signs
+CLUES:
+UNRESOLVED:
+
+[[Go back into Block 10|block10]]
+
+
+:: clean_water {"position":"1200,575","size":"100,100"}
+STORY PURPOSE: clean water
+DOCUMENTS: safe to drink, please drink from designated sources, get in touch with manager if water storage is low.
+CLUES:
+UNRESOLVED:
+
+[[Go back to Block 11|block11]]
+
+clean drinking water
+
+
+:: corridor1 {"position":"600,575","size":"100,100"}
+STORY PURPOSE: transitional space
+DOCUMENTS:
+CLUES:
+UNRESOLVED:
+
+[[Go through the door|block2]]
+[[Go down the corridor|corridor2]]
+[[Go back|block1]]
+
+
+
+:: corridor2 {"position":"750,575","size":"100,100"}
+STORY PURPOSE: transitional space
+DOCUMENTS:
+CLUES:
+UNRESOLVED:
+
+[[Go through the door|block10]]
+[[Go through the corridor|corridor1]]
+
+
+
+:: corridor3 {"position":"750,425","size":"100,100"}
+STORY PURPOSE: transitional space
+DOCUMENTS:
+CLUES:
+UNRESOLVED:
+
+[[Enter|block9]]
+[[Enter|block2]]
+
+
+:: corridor4 {"position":"750,275","size":"100,100"}
+STORY PURPOSE:
+DOCUMENTS:
+CLUES:
+UNRESOLVED:
+
+[[Enter|block3]]
+[[Enter|block8]]
+
+
+:: corridor5 {"position":"1050,275","size":"100,100"}
+STORY PURPOSE: transitional space
+DOCUMENTS:
+CLUES:
+UNRESOLVED:
+
+[[Enter|block8]]
+[[Enter|block5]]
+[[Enter|corridor6]]
+
+
+:: corridor6 {"position":"1050,425","size":"100,100"}
+STORY PURPOSE: transitional space
+DOCUMENTS:
+CLUES:
+UNRESOLVED:
+
+[[Enter|corridor5]]
+[[Enter|block9]]
+[[Enter|block6]]
+
+
+:: corridor7 {"position":"1050,725","size":"100,100"}
+STORY PURPOSE: transitional space
+DOCUMENTS:
+CLUES:
+UNRESOLVED:
+
+[[Go right|block10]]
+
+[[Keep going|block6]]
+[[Go back|block7]]
+[[Go left|block11]]
+
+
+:: generator {"position":"750,725","size":"100,100"}
+STORY PURPOSE: generator
+DOCUMENTS: warning documentation
+CLUES:
+UNRESOLVED:
+
+[[Go back into Block 10|block10]]
+
+
+:: tech_water {"position":"1200,875","size":"100,100"}
+STORY PURPOSE: tech water
+DOCUMENTS: flushing water, showers, do not drink signage
+CLUES:
+UNRESOLVED:
+
+[[Go back to Block 11|block11]]
+
+technical water
+
+
+:: wc1 {"position":"450,425","size":"100,100"}
+STORY PURPOSE: environmental storytelling
+DOCUMENTS: prescriptions
+CLUES: mental health issues
+UNRESOLVED:
+
+[[Go back into the bedroom|block2]]
+
+
+:: wc2 {"position":"450,275","size":"100,100"}
+STORY PURPOSE: environmental storytelling
+DOCUMENTS: prescriptions, 
+CLUES: mental health issues
+UNRESOLVED:
+
+[[Go back into the bedroom|block3]]
+
+
+:: wc3 {"position":"900,125","size":"100,100"}
+STORY PURPOSE: environmental storytelling
+DOCUMENTS: prescriptions
+CLUES: doctors notes
+UNRESOLVED:
+
+[[Go back into the bedroom|block8]]
+
+
+:: StoryStylesheet [stylesheet]
+#ui-bar {
+  display: none;
+}
+
+#story {
+  margin-left: 3.5em;
+}
